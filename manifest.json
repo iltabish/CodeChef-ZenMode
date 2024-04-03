@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "CodeChef ZenMode",
+    "version": "1.0",
+    "permissions": ["activeTab"],
+    "content_scripts": [
+      {
+        "matches": [
+          "https://www.codechef.com/*"
+        ],
+        "js": ["inject.js"]
+      }
+    ]
+  }
+  
